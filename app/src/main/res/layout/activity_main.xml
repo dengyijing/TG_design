@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_btn2"
+        android:id="@+id/search"/>
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/search"
+        />
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/camera"
+        android:layout_below="@+id/search"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#C5B9B9" />
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="60dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"/>
+    <Button
+        android:id="@+id/main"
+        android:layout_width="60dp"
+        android:layout_height="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/bg_btn1"
+        android:text="首页"
+        android:textAllCaps="false"
+        android:textColor="#A18F8F"
+        android:textSize="18sp" />
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_alignTop="@+id/btn_1"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/up"/>
+
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/share"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/plus_sign"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="55dp"
+        android:id="@+id/btn_2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"/>
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:background="@drawable/person"
+        android:layout_alignTop="@+id/btn_2"
+        android:layout_alignLeft="@+id/btn_2"
+        android:layout_marginRight="10dp"/>
+    <Button
+        android:id="@+id/me"
+        android:layout_width="60dp"
+        android:layout_height="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/bg_btn1"
+        android:gravity="center"
+        android:text="我"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="#A18F8F"/>
+
+
+</RelativeLayout>
